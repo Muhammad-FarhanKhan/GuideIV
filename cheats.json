@@ -1,0 +1,33 @@
+{
+  "PS5": [
+        {
+      "title": "$250,000 Cash Boost",
+      "desc": "Open phone (D-Pad Up), hold L1 + R1, then enter D-Pad code (Requires finishing main story).",
+      "code": "UP, RIGHT, DOWN, LEFT, UP, LEFT, DOWN, RIGHT"
+    },
+    {
+      "title": "Full Health & Armor",
+      "desc": "Restores player health, armor, and repairs current vehicle.",
+      "code": "CIRCLE, L1, TRIANGLE, R2, X, SQUARE, CIRCLE, RIGHT, SQUARE, L1, L1, L1"
+    },
+    {
+      "title": "Lower Wanted Level",
+      "desc": "Reduces police wanted stars by 1 level.",
+      "code": "R1, R1, CIRCLE, R2, RIGHT, LEFT, RIGHT, LEFT, RIGHT, LEFT"
+    }
+  ],
+  "Xbox": [
+    {
+      "title": "Full Health & Armor",
+      "desc": "Restores player health, armor, and repairs current vehicle.",
+      "code": "B, LB, Y, RT, A, X, B, RIGHT, X, LB, LB, LB"
+    }
+  ],
+  "PC": [
+    {
+      "title": "Full Health & Armor",
+      "desc": "Enter via in-game console (~) or dial on phone.",
+      "code": "TURTLE"
+    }
+  ]
+}
