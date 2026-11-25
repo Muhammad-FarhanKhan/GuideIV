@@ -1,33 +1,618 @@
+
 {
   "PS5": [
-        {
+    {
       "title": "$250,000 Cash Boost",
-      "desc": "Open phone (D-Pad Up), hold L1 + R1, then enter D-Pad code (Requires finishing main story).",
+      "desc": "Adds $250,000. Unlock: Finish the main story.",
       "code": "UP, RIGHT, DOWN, LEFT, UP, LEFT, DOWN, RIGHT"
     },
     {
-      "title": "Full Health & Armor",
-      "desc": "Restores player health, armor, and repairs current vehicle.",
-      "code": "CIRCLE, L1, TRIANGLE, R2, X, SQUARE, CIRCLE, RIGHT, SQUARE, L1, L1, L1"
+      "title": "Raise Heat Level",
+      "desc": "Raises heat level. Unlock: Escape a 3-star wanted level 25 times.",
+      "code": "LEFT, DOWN, RIGHT, DOWN, UP, DOWN, UP"
     },
     {
-      "title": "Lower Wanted Level",
-      "desc": "Reduces police wanted stars by 1 level.",
-      "code": "R1, R1, CIRCLE, R2, RIGHT, LEFT, RIGHT, LEFT, RIGHT, LEFT"
+      "title": "Raise Wanted Level",
+      "desc": "Raises wanted level. Unlock: Escape a 3-star wanted level 50 times.",
+      "code": "LEFT, DOWN, RIGHT, DOWN, UP, RIGHT, UP"
+    },
+    {
+      "title": "Unlimited Focus",
+      "desc": "Makes Focus unlimited. Unlock: Finish the main story.",
+      "code": "DOWN, UP, UP, DOWN, UP, DOWN, UP, DOWN, UP, RIGHT"
+    },
+    {
+      "title": "Body Armor",
+      "desc": "Adds body armor. Unlock: Complete 100 workouts.",
+      "code": "DOWN, UP, LEFT, UP, UP, UP, UP, UP, DOWN, DOWN"
+    },
+    {
+      "title": "Max Ammo",
+      "desc": "Refills ammunition. Unlock: Earn 25 bronze or better shooting range medals.",
+      "code": "DOWN, UP, RIGHT, DOWN, LEFT, LEFT, UP, UP, DOWN, LEFT"
+    },
+    {
+      "title": "Infinite Ammo",
+      "desc": "Provides unlimited ammunition. Unlock: Earn 25 silver or better shooting range medals.",
+      "code": "DOWN, UP, RIGHT, DOWN, LEFT, LEFT, UP, DOWN, DOWN, DOWN"
+    },
+    {
+      "title": "No Reload",
+      "desc": "Removes weapon reload requirement. Unlock: Earn 25 gold shooting range medals.",
+      "code": "DOWN, UP, RIGHT, DOWN, LEFT, LEFT, UP, DOWN, DOWN, UP"
+    },
+    {
+      "title": "Attack Force",
+      "desc": "Makes attacks launch targets away. Unlock: Finish the main story.",
+      "code": "DOWN, UP, LEFT, LEFT, RIGHT, DOWN, DOWN, UP, DOWN"
+    },
+    {
+      "title": "Exploding Balls",
+      "desc": "Sports balls explode on impact. Unlock: Hit 20 enemies with explosive damage.",
+      "code": "DOWN, UP, LEFT, LEFT, RIGHT, DOWN, DOWN, UP, RIGHT"
+    },
+    {
+      "title": "Vehicle Force",
+      "desc": "Vehicle collisions launch targets. Unlock: Kill 25 enemies with a vehicle.",
+      "code": "DOWN, UP, LEFT, LEFT, RIGHT, DOWN, LEFT, UP, DOWN"
+    },
+    {
+      "title": "Maibatsu Boomazoom",
+      "desc": "Spawns Maibatsu Boomazoom. Unlock: Complete 5 shopping challenges.",
+      "code": "LEFT, UP, RIGHT, DOWN, LEFT, LEFT, UP, LEFT"
+    },
+    {
+      "title": "MTL Pumper",
+      "desc": "Spawns MTL Pumper. Unlock: Discover it in the Progress menu.",
+      "code": "LEFT, UP, RIGHT, DOWN, LEFT, RIGHT, RIGHT, UP"
+    },
+    {
+      "title": "HVY Bulldozer",
+      "desc": "Spawns HVY Bulldozer. Unlock: Discover it in the Progress menu.",
+      "code": "LEFT, UP, RIGHT, DOWN, LEFT, RIGHT, RIGHT, DOWN"
+    },
+    {
+      "title": "Cycle Weather",
+      "desc": "Changes current weather. Unlock: Finish the main story.",
+      "code": "DOWN, RIGHT, UP, DOWN, RIGHT, UP, RIGHT"
+    },
+    {
+      "title": "Cataclysm Filter",
+      "desc": "Applies Cataclysm screen filter. Unlock: Discover Martha's Vamos.",
+      "code": "DOWN, DOWN, UP, RIGHT, RIGHT, UP, LEFT, LEFT, RIGHT, RIGHT"
+    },
+    {
+      "title": "Dollhouse Filter",
+      "desc": "Applies Dollhouse screen filter. Unlock: Spend 8 hours with your partner.",
+      "code": "DOWN, DOWN, UP, RIGHT, RIGHT, UP, LEFT, LEFT, DOWN, RIGHT"
+    },
+    {
+      "title": "Faded Glory Filter",
+      "desc": "Applies Faded Glory screen filter. Unlock: Rob 50 stores with your partner.",
+      "code": "DOWN, DOWN, UP, RIGHT, RIGHT, UP, LEFT, LEFT, LEFT, RIGHT"
+    },
+    {
+      "title": "Drunk",
+      "desc": "Makes both partners drunk. Unlock: Spend $2,500 on alcohol.",
+      "code": "TBA"
+    },
+    {
+      "title": "No Fall Damage",
+      "desc": "Prevents fall damage. Unlock: Survive 20 falls from 40 feet.",
+      "code": "TBA"
+    },
+    {
+      "title": "Parachute",
+      "desc": "Adds parachute to your loadout. Unlock: Complete 50 skydives or BASE jumps from 300 feet or higher.",
+      "code": "TBA"
+    },
+    {
+      "title": "Repair Vehicle",
+      "desc": "Repairs current vehicle. Unlock: Win 10 races at Gellhorn Raceway, Thrillbilly Mud Club and Boone Speedway.",
+      "code": "TBA"
+    },
+    {
+      "title": "Unlimited Nitrous",
+      "desc": "Provides unlimited nitrous and fuel. Unlock: Complete 50 stunt jumps.",
+      "code": "TBA"
+    },
+    {
+      "title": "All Explosive Weapons",
+      "desc": "Adds explosive weapons with full ammo. Unlock: Throw 100 grenades.",
+      "code": "TBA"
+    },
+    {
+      "title": "Incendiary Ammo",
+      "desc": "Makes ammunition incendiary. Unlock: Burn 100 enemies.",
+      "code": "TBA"
+    },
+    {
+      "title": "Exploding Bottles",
+      "desc": "Makes bottles explode when damaged. Unlock: Throw 100 Molotovs.",
+      "code": "TBA"
+    },
+    {
+      "title": "Explosive Shotgun",
+      "desc": "Adds Mason & Keen Shortstraw with explosive shells. Unlock: Hit 100 enemies with explosive damage.",
+      "code": "TBA"
+    },
+    {
+      "title": "Hauners H-AT",
+      "desc": "Adds Hauners H-AT to your loadout. Unlock: Destroy 100 vehicles.",
+      "code": "TBA"
+    },
+    {
+      "title": "Interstate Ambulance",
+      "desc": "Spawns Interstate Ambulance. Unlock: Discover it in Progress menu.",
+      "code": "TBA"
+    },
+    {
+      "title": "Airboat 09",
+      "desc": "Spawns Airboat 09. Unlock: Complete 5 survival challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Bravado Banshee",
+      "desc": "Spawns Bravado Banshee. Unlock: Complete all combat challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Tuff BMX",
+      "desc": "Spawns Tuff BMX. Unlock: Complete 5 fitness challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Nagasaki Carbon RS",
+      "desc": "Spawns Nagasaki Carbon RS. Unlock: Complete all exploration challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "65 Vapid Dominator",
+      "desc": "Spawns 65 Vapid Dominator. Unlock: Complete all fitness challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Progen Emerus",
+      "desc": "Spawns Progen Emerus. Unlock: Complete all vehicle challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Inflatable Flamingo",
+      "desc": "Spawns Inflatable Flamingo. Unlock: Destroy 50 cocaine flamingos.",
+      "code": "TBA"
+    },
+    {
+      "title": "Vapid Stanier G2 Taxi",
+      "desc": "Spawns Vapid Stanier G2 Taxi. Unlock: Complete 5 sports challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Hauners P-996 Lazer",
+      "desc": "Spawns Hauners P-996 Lazer. Unlock: Complete all challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Lapwing Mallard",
+      "desc": "Spawns Lapwing Mallard. Unlock: Complete 5 vehicle challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Brimstone Golfer",
+      "desc": "Spawns Brimstone Golfer. Unlock: Complete all sports challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Hauners Rhino Tank",
+      "desc": "Spawns Rhino Tank. Unlock: Complete all survival challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Maibatsu Sanchez",
+      "desc": "Spawns Maibatsu Sanchez. Unlock: Complete 5 criminal challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Nagasaki Sea Sparrow",
+      "desc": "Spawns Nagasaki Sea Sparrow. Unlock: Complete 5 exploration challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Speeder 700 GT",
+      "desc": "Spawns Speeder 700 GT. Unlock: Complete 5 combat challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Truffade Thrax",
+      "desc": "Spawns Truffade Thrax. Unlock: Complete all shopping challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Western Zombie Bobber",
+      "desc": "Spawns Western Zombie Bobber. Unlock: Complete all criminal challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Move Time Forward",
+      "desc": "Moves time forward. Unlock: Find 10 collectible watches.",
+      "code": "TBA"
+    },
+    {
+      "title": "Pause Time of Day",
+      "desc": "Freezes current time. Unlock: Find 20 collectible watches.",
+      "code": "TBA"
+    },
+    {
+      "title": "Golden Hour Filter",
+      "desc": "Applies golden filter with widescreen. Unlock: Spend 4 hours holding hands.",
+      "code": "TBA"
+    },
+    {
+      "title": "Powdered Sugar Filter",
+      "desc": "Turns the world white with sparkling highlights. Unlock: Scan all space debris with WAiNK.",
+      "code": "TBA"
+    },
+    {
+      "title": "Pinhole Filter",
+      "desc": "Applies pinhole camera filter. Unlock: Clear 25 gang operations with your partner.",
+      "code": "TBA"
+    },
+    {
+      "title": "Neon Jungle Filter",
+      "desc": "Adds neon highlights. Unlock: Discover all 16 Girlypop vehicles.",
+      "code": "TBA"
+    },
+    {
+      "title": "Yesteryear Filter",
+      "desc": "Applies black-and-white CRT filter. Unlock: Discover the Ridgway.",
+      "code": "TBA"
+    },
+    {
+      "title": "Videotape Filter",
+      "desc": "Applies VHS-style filter. Unlock: Complete 50 activities with your partner.",
+      "code": "TBA"
+    },
+    {
+      "title": "Dark Mirror Filter",
+      "desc": "Flips the world upside down and darkens the view. Unlock: Make $500,000 selling vehicles.",
+      "code": "TBA"
+    },
+    {
+      "title": "Migraine Filter",
+      "desc": "Applies blurred and distorted view. Unlock: Survive 6 minutes at 6-star wanted level.",
+      "code": "TBA"
+    },
+    {
+      "title": "Bubblegum Filter",
+      "desc": "Adds purple and yellow highlights. Unlock: Find all 24 Vice City Flamingos cards.",
+      "code": "TBA"
+    },
+    {
+      "title": "Fast Forward Filter",
+      "desc": "Adds motion blur and faster clouds. Unlock: Complete 50 meditations.",
+      "code": "TBA"
+    },
+    {
+      "title": "Fisheye Filter",
+      "desc": "Applies fisheye view. Unlock: Catch 100 fish.",
+      "code": "TBA"
+    },
+    {
+      "title": "Pixel Art Filter",
+      "desc": "Pixelates the screen. Unlock: Make $250,000 selling collectibles.",
+      "code": "TBA"
+    },
+    {
+      "title": "Hellscape Filter",
+      "desc": "Adds red and orange heat haze. Unlock: Steal 100 police vehicles.",
+      "code": "TBA"
     }
   ],
   "Xbox": [
     {
-      "title": "Full Health & Armor",
-      "desc": "Restores player health, armor, and repairs current vehicle.",
-      "code": "B, LB, Y, RT, A, X, B, RIGHT, X, LB, LB, LB"
+      "title": "$250,000 Cash Boost",
+      "desc": "Adds $250,000. Unlock: Finish the main story.",
+      "code": "UP, RIGHT, DOWN, LEFT, UP, LEFT, DOWN, RIGHT"
+    },
+    {
+      "title": "Raise Heat Level",
+      "desc": "Raises heat level. Unlock: Escape a 3-star wanted level 25 times.",
+      "code": "LEFT, DOWN, RIGHT, DOWN, UP, DOWN, UP"
+    },
+    {
+      "title": "Raise Wanted Level",
+      "desc": "Raises wanted level. Unlock: Escape a 3-star wanted level 50 times.",
+      "code": "LEFT, DOWN, RIGHT, DOWN, UP, RIGHT, UP"
+    },
+    {
+      "title": "Unlimited Focus",
+      "desc": "Makes Focus unlimited. Unlock: Finish the main story.",
+      "code": "DOWN, UP, UP, DOWN, UP, DOWN, UP, DOWN, UP, RIGHT"
+    },
+    {
+      "title": "Body Armor",
+      "desc": "Adds body armor. Unlock: Complete 100 workouts.",
+      "code": "DOWN, UP, LEFT, UP, UP, UP, UP, UP, DOWN, DOWN"
+    },
+    {
+      "title": "Max Ammo",
+      "desc": "Refills ammunition. Unlock: Earn 25 bronze or better shooting range medals.",
+      "code": "DOWN, UP, RIGHT, DOWN, LEFT, LEFT, UP, UP, DOWN, LEFT"
+    },
+    {
+      "title": "Infinite Ammo",
+      "desc": "Provides unlimited ammunition. Unlock: Earn 25 silver or better shooting range medals.",
+      "code": "DOWN, UP, RIGHT, DOWN, LEFT, LEFT, UP, DOWN, DOWN, DOWN"
+    },
+    {
+      "title": "No Reload",
+      "desc": "Removes weapon reload requirement. Unlock: Earn 25 gold shooting range medals.",
+      "code": "DOWN, UP, RIGHT, DOWN, LEFT, LEFT, UP, DOWN, DOWN, UP"
+    },
+    {
+      "title": "Attack Force",
+      "desc": "Makes attacks launch targets away. Unlock: Finish the main story.",
+      "code": "DOWN, UP, LEFT, LEFT, RIGHT, DOWN, DOWN, UP, DOWN"
+    },
+    {
+      "title": "Exploding Balls",
+      "desc": "Sports balls explode on impact. Unlock: Hit 20 enemies with explosive damage.",
+      "code": "DOWN, UP, LEFT, LEFT, RIGHT, DOWN, DOWN, UP, RIGHT"
+    },
+    {
+      "title": "Vehicle Force",
+      "desc": "Vehicle collisions launch targets. Unlock: Kill 25 enemies with a vehicle.",
+      "code": "DOWN, UP, LEFT, LEFT, RIGHT, DOWN, LEFT, UP, DOWN"
+    },
+    {
+      "title": "Maibatsu Boomazoom",
+      "desc": "Spawns Maibatsu Boomazoom. Unlock: Complete 5 shopping challenges.",
+      "code": "LEFT, UP, RIGHT, DOWN, LEFT, LEFT, UP, LEFT"
+    },
+    {
+      "title": "MTL Pumper",
+      "desc": "Spawns MTL Pumper. Unlock: Discover it in the Progress menu.",
+      "code": "LEFT, UP, RIGHT, DOWN, LEFT, RIGHT, RIGHT, UP"
+    },
+    {
+      "title": "HVY Bulldozer",
+      "desc": "Spawns HVY Bulldozer. Unlock: Discover it in the Progress menu.",
+      "code": "LEFT, UP, RIGHT, DOWN, LEFT, RIGHT, RIGHT, DOWN"
+    },
+    {
+      "title": "Cycle Weather",
+      "desc": "Changes current weather. Unlock: Finish the main story.",
+      "code": "DOWN, RIGHT, UP, DOWN, RIGHT, UP, RIGHT"
+    },
+    {
+      "title": "Cataclysm Filter",
+      "desc": "Applies Cataclysm screen filter. Unlock: Discover Martha's Vamos.",
+      "code": "DOWN, DOWN, UP, RIGHT, RIGHT, UP, LEFT, LEFT, RIGHT, RIGHT"
+    },
+    {
+      "title": "Dollhouse Filter",
+      "desc": "Applies Dollhouse screen filter. Unlock: Spend 8 hours with your partner.",
+      "code": "DOWN, DOWN, UP, RIGHT, RIGHT, UP, LEFT, LEFT, DOWN, RIGHT"
+    },
+    {
+      "title": "Faded Glory Filter",
+      "desc": "Applies Faded Glory screen filter. Unlock: Rob 50 stores with your partner.",
+      "code": "DOWN, DOWN, UP, RIGHT, RIGHT, UP, LEFT, LEFT, LEFT, RIGHT"
+    },
+    {
+      "title": "Drunk",
+      "desc": "Makes both partners drunk. Unlock: Spend $2,500 on alcohol.",
+      "code": "TBA"
+    },
+    {
+      "title": "No Fall Damage",
+      "desc": "Prevents fall damage. Unlock: Survive 20 falls from 40 feet.",
+      "code": "TBA"
+    },
+    {
+      "title": "Parachute",
+      "desc": "Adds parachute to your loadout. Unlock: Complete 50 skydives or BASE jumps from 300 feet or higher.",
+      "code": "TBA"
+    },
+    {
+      "title": "Repair Vehicle",
+      "desc": "Repairs current vehicle. Unlock: Win 10 races at Gellhorn Raceway, Thrillbilly Mud Club and Boone Speedway.",
+      "code": "TBA"
+    },
+    {
+      "title": "Unlimited Nitrous",
+      "desc": "Provides unlimited nitrous and fuel. Unlock: Complete 50 stunt jumps.",
+      "code": "TBA"
+    },
+    {
+      "title": "All Explosive Weapons",
+      "desc": "Adds explosive weapons with full ammo. Unlock: Throw 100 grenades.",
+      "code": "TBA"
+    },
+    {
+      "title": "Incendiary Ammo",
+      "desc": "Makes ammunition incendiary. Unlock: Burn 100 enemies.",
+      "code": "TBA"
+    },
+    {
+      "title": "Exploding Bottles",
+      "desc": "Makes bottles explode when damaged. Unlock: Throw 100 Molotovs.",
+      "code": "TBA"
+    },
+    {
+      "title": "Explosive Shotgun",
+      "desc": "Adds Mason & Keen Shortstraw with explosive shells. Unlock: Hit 100 enemies with explosive damage.",
+      "code": "TBA"
+    },
+    {
+      "title": "Hauners H-AT",
+      "desc": "Adds Hauners H-AT to your loadout. Unlock: Destroy 100 vehicles.",
+      "code": "TBA"
+    },
+    {
+      "title": "Interstate Ambulance",
+      "desc": "Spawns Interstate Ambulance. Unlock: Discover it in Progress menu.",
+      "code": "TBA"
+    },
+    {
+      "title": "Airboat 09",
+      "desc": "Spawns Airboat 09. Unlock: Complete 5 survival challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Bravado Banshee",
+      "desc": "Spawns Bravado Banshee. Unlock: Complete all combat challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Tuff BMX",
+      "desc": "Spawns Tuff BMX. Unlock: Complete 5 fitness challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Nagasaki Carbon RS",
+      "desc": "Spawns Nagasaki Carbon RS. Unlock: Complete all exploration challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "65 Vapid Dominator",
+      "desc": "Spawns 65 Vapid Dominator. Unlock: Complete all fitness challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Progen Emerus",
+      "desc": "Spawns Progen Emerus. Unlock: Complete all vehicle challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Inflatable Flamingo",
+      "desc": "Spawns Inflatable Flamingo. Unlock: Destroy 50 cocaine flamingos.",
+      "code": "TBA"
+    },
+    {
+      "title": "Vapid Stanier G2 Taxi",
+      "desc": "Spawns Vapid Stanier G2 Taxi. Unlock: Complete 5 sports challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Hauners P-996 Lazer",
+      "desc": "Spawns Hauners P-996 Lazer. Unlock: Complete all challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Lapwing Mallard",
+      "desc": "Spawns Lapwing Mallard. Unlock: Complete 5 vehicle challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Brimstone Golfer",
+      "desc": "Spawns Brimstone Golfer. Unlock: Complete all sports challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Hauners Rhino Tank",
+      "desc": "Spawns Rhino Tank. Unlock: Complete all survival challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Maibatsu Sanchez",
+      "desc": "Spawns Maibatsu Sanchez. Unlock: Complete 5 criminal challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Nagasaki Sea Sparrow",
+      "desc": "Spawns Nagasaki Sea Sparrow. Unlock: Complete 5 exploration challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Speeder 700 GT",
+      "desc": "Spawns Speeder 700 GT. Unlock: Complete 5 combat challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Truffade Thrax",
+      "desc": "Spawns Truffade Thrax. Unlock: Complete all shopping challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Western Zombie Bobber",
+      "desc": "Spawns Western Zombie Bobber. Unlock: Complete all criminal challenges.",
+      "code": "TBA"
+    },
+    {
+      "title": "Move Time Forward",
+      "desc": "Moves time forward. Unlock: Find 10 collectible watches.",
+      "code": "TBA"
+    },
+    {
+      "title": "Pause Time of Day",
+      "desc": "Freezes current time. Unlock: Find 20 collectible watches.",
+      "code": "TBA"
+    },
+    {
+      "title": "Golden Hour Filter",
+      "desc": "Applies golden filter with widescreen. Unlock: Spend 4 hours holding hands.",
+      "code": "TBA"
+    },
+    {
+      "title": "Powdered Sugar Filter",
+      "desc": "Turns the world white with sparkling highlights. Unlock: Scan all space debris with WAiNK.",
+      "code": "TBA"
+    },
+    {
+      "title": "Pinhole Filter",
+      "desc": "Applies pinhole camera filter. Unlock: Clear 25 gang operations with your partner.",
+      "code": "TBA"
+    },
+    {
+      "title": "Neon Jungle Filter",
+      "desc": "Adds neon highlights. Unlock: Discover all 16 Girlypop vehicles.",
+      "code": "TBA"
+    },
+    {
+      "title": "Yesteryear Filter",
+      "desc": "Applies black-and-white CRT filter. Unlock: Discover the Ridgway.",
+      "code": "TBA"
+    },
+    {
+      "title": "Videotape Filter",
+      "desc": "Applies VHS-style filter. Unlock: Complete 50 activities with your partner.",
+      "code": "TBA"
+    },
+    {
+      "title": "Dark Mirror Filter",
+      "desc": "Flips the world upside down and darkens the view. Unlock: Make $500,000 selling vehicles.",
+      "code": "TBA"
+    },
+    {
+      "title": "Migraine Filter",
+      "desc": "Applies blurred and distorted view. Unlock: Survive 6 minutes at 6-star wanted level.",
+      "code": "TBA"
+    },
+    {
+      "title": "Bubblegum Filter",
+      "desc": "Adds purple and yellow highlights. Unlock: Find all 24 Vice City Flamingos cards.",
+      "code": "TBA"
+    },
+    {
+      "title": "Fast Forward Filter",
+      "desc": "Adds motion blur and faster clouds. Unlock: Complete 50 meditations.",
+      "code": "TBA"
+    },
+    {
+      "title": "Fisheye Filter",
+      "desc": "Applies fisheye view. Unlock: Catch 100 fish.",
+      "code": "TBA"
+    },
+    {
+      "title": "Pixel Art Filter",
+      "desc": "Pixelates the screen. Unlock: Make $250,000 selling collectibles.",
+      "code": "TBA"
+    },
+    {
+      "title": "Hellscape Filter",
+      "desc": "Adds red and orange heat haze. Unlock: Steal 100 police vehicles.",
+      "code": "TBA"
     }
   ],
-  "PC": [
-    {
-      "title": "Full Health & Armor",
-      "desc": "Enter via in-game console (~) or dial on phone.",
-      "code": "TURTLE"
-    }
-  ]
+  "PC": []
 }
